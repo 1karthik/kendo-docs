@@ -43,7 +43,7 @@ Kendo UI widgets use primitives, meaning that different HTML elements in differe
 
 Commonly-used CSS classes include:
 
-*   **k-widget** - applied to the widget wrapper to set a border, text and background color. In addition to t-widget, every widget has its own specific CSS class, for example **k-menu**, **k-panelbar**, **k-tabstrip**, etc.
+*   **k-widget** - applied to the widget wrapper to set a border, text and background color. In addition to `k-widget`, every widget has its own specific CSS class, for example `k-menu`, `k-panelbar`, `k-tabstrip`, etc.
 *   **k-header** - applied to Grid headers, Menu top level items, PanelBar top level items, TabStrip items, DropDownLists, to set a background image and a background color
 *   **k-link** - applied to hyperlinks and clickable text items to set a text color
 *   **k-button** - applied to elements that should look like push buttons. The class sets a text color, background color, background image and hover styling. This is the recommended class for styling **form buttons**
@@ -55,7 +55,7 @@ Commonly-used CSS classes include:
 *   **k-icon** and **k-sprite** - applied to elements that display part of a sprite image as background to init their dimensions
 *   **k-image** - applied to inline images to set their dimensions
 *   **k-item** - applied to various repeating widget items, e.g. in the Menu, TabStrip, TreeView, PanelBar, ComboBox, DropDownList, etc. This CSS class does not apply any particular global styles and sports display: block.
-*   **k-first** and **k-last** - set on first and last k-item respectively, where special styling is needed - rounded corners, removing borders
+*   **k-first** and **k-last** - set on first and last `k-item` respectively, where special styling is needed - rounded corners, removing borders
 
 The appearance of a component may also depend on its state, which is also tied to CSS classes:
 
